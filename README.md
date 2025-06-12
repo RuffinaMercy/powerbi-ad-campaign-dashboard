@@ -1,11 +1,6 @@
-Sure! Here's the updated version of your **Power BI project README** with the **Power BI report link** included under a new section called **🔗 Live Dashboard Link**:
-
----
-
 # 🧠 Online Advertising Analytics Dashboard – Power BI Project
 
 This project is a Power BI dashboard that visualizes and analyzes **online ad campaign performance** using key digital marketing metrics like **CPC, RPC, ROI, CTR, Profit**, and more.
-
 It is built from a raw dataset containing daily ad impressions and enriched using **calculated fields**, allowing deep insight into marketing effectiveness over time.
 
 ---

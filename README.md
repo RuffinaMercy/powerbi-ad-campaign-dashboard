@@ -1,9 +1,12 @@
+Sure! Here's the updated version of your **Power BI project README** with the **Power BI report link** included under a new section called **🔗 Live Dashboard Link**:
+
+---
+
 # 🧠 Online Advertising Analytics Dashboard – Power BI Project
 
 This project is a Power BI dashboard that visualizes and analyzes **online ad campaign performance** using key digital marketing metrics like **CPC, RPC, ROI, CTR, Profit**, and more.
 
 It is built from a raw dataset containing daily ad impressions and enriched using **calculated fields**, allowing deep insight into marketing effectiveness over time.
-
 
 ---
 
@@ -15,17 +18,17 @@ The original dataset used is:
 
 It includes the following columns:
 
-- `month`, `day`
-- `campaign_number`
-- `user_engagement` (High / Medium / Low)
-- `banner` (ad format)
-- `placement` (e.g., abc, def, mno)
-- `displays` (total impressions)
-- `cost` (total ad cost)
-- `clicks` (user clicks on ads)
-- `revenue` (earned revenue)
-- `post_click_conversions`
-- `post_click_sales_amount`
+* `month`, `day`
+* `campaign_number`
+* `user_engagement` (High / Medium / Low)
+* `banner` (ad format)
+* `placement` (e.g., abc, def, mno)
+* `displays` (total impressions)
+* `cost` (total ad cost)
+* `clicks` (user clicks on ads)
+* `revenue` (earned revenue)
+* `post_click_conversions`
+* `post_click_sales_amount`
 
 ---
 
@@ -33,15 +36,15 @@ It includes the following columns:
 
 Below are the **DAX formulas** used to derive key performance indicators (KPIs):
 
-| Metric | Formula |
-|--------|---------|
-| `DATE` | `DATE(2020, [MonthNumber], [day])` |
-| `CTR` (Click Through Rate) | `CTR = clicks / displays` |
-| `CPC` (Cost Per Click) | `CPC = cost / clicks` |
-| `CPM` (Cost Per Mille) | `CPM = (cost / displays) * 1000` |
-| `Profit` | `Profit = revenue - cost` |
-| `ROI` (Return on Investment) | `ROI = Profit / cost` |
-| `RPC` (Revenue Per Click) | `RPC = revenue / clicks` |
+| Metric                       | Formula                            |
+| ---------------------------- | ---------------------------------- |
+| `DATE`                       | `DATE(2020, [MonthNumber], [day])` |
+| `CTR` (Click Through Rate)   | `CTR = clicks / displays`          |
+| `CPC` (Cost Per Click)       | `CPC = cost / clicks`              |
+| `CPM` (Cost Per Mille)       | `CPM = (cost / displays) * 1000`   |
+| `Profit`                     | `Profit = revenue - cost`          |
+| `ROI` (Return on Investment) | `ROI = Profit / cost`              |
+| `RPC` (Revenue Per Click)    | `RPC = revenue / clicks`           |
 
 These were created in Power BI using calculated columns and measures.
 
@@ -49,32 +52,36 @@ These were created in Power BI using calculated columns and measures.
 
 ## 📈 Dashboard Features
 
-- ✅ **Summary Tiles** for:
-  - Total Clicks
-  - Total Revenue
-  - Total Profit
-  - CPC, RPC
+* ✅ **Summary Tiles** for:
 
-- 📅 **Line Chart**: Profit by Month
+  * Total Clicks
+  * Total Revenue
+  * Total Profit
+  * CPC, RPC
 
-- 📊 **Bar Charts**:
-  - Clicks by Campaign Number
-  - CPC vs ROI Scatter Plot
+* 📅 **Line Chart**: Profit by Month
 
-- 🧾 **Table View**:
-  - Campaign-level insights by month & user engagement
+* 📊 **Bar Charts**:
 
-- 🍕 **Pie Chart**:
-  - Click Distribution by Placement
+  * Clicks by Campaign Number
+  * CPC vs ROI Scatter Plot
+
+* 🧾 **Table View**:
+
+  * Campaign-level insights by month & user engagement
+
+* 🍕 **Pie Chart**:
+
+  * Click Distribution by Placement
 
 ---
 
 ## 🔍 Insights Gained
 
-- Campaign 1 generated the highest clicks and profit
-- Placements like `ghi` and `mno` performed significantly better
-- ROI and RPC metrics revealed budget efficiency
-- Profit trend shows a **month-over-month decline**, highlighting optimization need
+* Campaign 1 generated the highest clicks and profit
+* Placements like `ghi` and `mno` performed significantly better
+* ROI and RPC metrics revealed budget efficiency
+* Profit trend shows a **month-over-month decline**, highlighting optimization need
 
 ---
 
@@ -84,9 +91,13 @@ These were created in Power BI using calculated columns and measures.
 2. Open `AdCampaignDashboard.pbix` in **Power BI Desktop**
 3. Load the dataset: `online_advertising_performance_data.csv`
 4. Explore and interact with the visuals
-5. Connect your own dataset if needed
+
 
 ---
 
+## 🔗 Live Dashboard Link
 
+👉 **Explore the interactive Power BI report here**:
+[🔗 View Dashboard on Power BI Service](https://app.powerbi.com/links/0EKMOxBbgO?ctid=191dd60d-090a-4459-a071-b03c80f3ac3b&pbi_source=linkShare)
 
+---
